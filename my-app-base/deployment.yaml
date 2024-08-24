@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: kubia-cnt
-        image: terezabisharyan/nginx
+        image: terezabisharyan/node-custom:v0.1.0
         ports:
         - containerPort: 80

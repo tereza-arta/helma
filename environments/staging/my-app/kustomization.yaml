@@ -3,7 +3,7 @@ replicas:
   - name: kubia-deployment
     count: 2
 images:
-  - name: terezabisharyan/kubia
+  - name: terezabisharyan/nginx
     newTag: v0.1.0
 resources:
   - ../../../my-app-base
